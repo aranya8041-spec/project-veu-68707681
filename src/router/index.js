@@ -18,8 +18,28 @@ const routes = [
     name: 'contact',
     
     component: () => import( '../views/Contact.vue')
+  },
+  {
+    path: '/product_api',
+    name: 'product_api',
+    
+    component: () => import( '../views/product_API.vue')
+  },
+  {
+    path: '/product_list',
+    name: 'product_list',
+    
+    component: () => import( '../views/product_list.vue')
+  },
+  {
+    path: '/gold',
+    name: 'gold',
+    
+    component: () => import( '../views/gold.vue')
   }
 ]
+
+
   
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
