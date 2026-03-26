@@ -28,7 +28,7 @@
             <li><a class="dropdown-item" href="/show_customer">Show customer</a></li>
             <li><a class="dropdown-item" href="/show_employees">Show employees</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Log out</a></li>
+            <li><a class="dropdown-item" href="/add_employees">Add employees</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -37,7 +37,7 @@
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="/register">Register</a></li>
-            <li><a class="dropdown-item" href="#">Login</a></li>
+            <li><a class="dropdown-item" href="/login">Login</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">Log out</a></li>
           </ul>
@@ -56,9 +56,10 @@
     </div>
   </div>
 </nav>
-  </div>
+  
 <!---เป็นหน้าเพจตามที่คลิปเลือกเมนู ห้ามลบ-->
   <router-view/>
+</div>
 </template>
 
 <style>
